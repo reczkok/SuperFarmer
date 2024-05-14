@@ -111,7 +111,6 @@ public class Player : MonoBehaviour
         {
             if (count == 0 || animalType == AnimalType.Rabbit) continue;
             toRemove.Add(animalType, count);
-            break;
         }
         foreach (var (animalType, count) in toRemove)
         {
