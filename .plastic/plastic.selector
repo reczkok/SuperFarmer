@@ -1,0 +1,4 @@
+repository "SuperFarmer@Reczkok@cloud"
+  path "/"
+    br "/main"
+    co "/main"
